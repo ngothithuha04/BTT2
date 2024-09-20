@@ -1,0 +1,230 @@
+
+		* {
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+
+}
+body {
+  margin-top: 2rem;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: #f0f0f0;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-weight: 100;
+}
+html {
+  font-style: 62.5%;
+}
+li {
+  list-style: none;
+}
+.container {
+  background-color: #333333;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+}
+.header {
+  padding: 1rem;
+  font-weight: 100;
+  display: flex;
+height: 40px;
+background-color: black;
+}
+
+.date {
+  color: white;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  margin-top: 0.2rem;
+}
+
+span {
+  cursor: pointer;
+}
+.body {
+}
+
+.div_table {}
+.date-btn {
+  margin-top: 1rem;
+  padding-inline: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn14 {
+  float: right;
+margin-top: -21px;
+}
+h3 {
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+  margin-top: 20px;
+}
+button {
+  border: none;
+  font-size: 2rem;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+#table {
+  width: 100%;
+  padding-bottom: 1rem;
+
+}
+th {
+  border: 3px solid transparent;
+  font-weight: 100;
+  border-radius: 50%;
+  font-weight: 1rem;
+  height: 3.5rem;
+  width: 57.333px;
+}
+tbody th:hover {
+  border: 2px solid #ffffff;
+}
+.div_table1 th {
+  font-size: 1rem;
+  font-weight: 100;
+  height: 6.7em;
+ width: 2rem;
+}
+.div_table2 th {
+ 
+  font-size: 1rem;
+  font-weight: 100;
+  height: 7rem;
+  width: 2rem;
+   border-radius: 50%;
+}
+.day__now {
+  background: aqua;
+  border-radius: 50%; 
+  color: black;
+}
+.year__now {
+  background: aqua;
+  color: black;
+}
+.month__now {
+  background-color: aqua;
+  color: black;
+  border-radius: 50%;
+
+}
+.day__cancel {
+  color: #7b7979;
+}
+.month__cancel {
+  color: #7b7979;
+}
+
+.div_table1 {
+  display: none;
+}
+.div_table2 {
+  display: none;
+}
+@keyframes scale-0 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  99% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    display: none;
+  }
+}
+@keyframes scale-1 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  99% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    display: block;
+  }
+}
+.animation_scale-0 {
+  animation: scale-0 0.3s forwards;
+}
+.animation_scale-1 {
+  animation: scale-1 0.3s forwards;
+  display: block;
+}
+.btn14 {
+  padding-left: 257px;
+
+
+}
+.border {
+  border-color: aqua;
+  border-radius: 50%; 
+  width: 57px;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  background-color: black; 
+  padding: 10px;
+  border-radius: 5px;
+}
+.focus-btn {
+  float: right;
+  background-color: #333333; 
+  color: #fff; 
+  border: none;
+  padding: 10px;
+  margin-left: 230px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.decrease-btn,
+.increase-btn
+ {
+  background-color: #333333; 
+  color: #fff; 
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+
+  }
+
+.time-display {
+  color: #fff; 
+  margin: 0 10px;
+  font-size: 18px;
+}
+.bx{
+  border: none;
+
+}
+.decrease-btn:hover,
+.increase-btn:hover,
+.focus-btn:hover {
+  background-color: #333333; 
+}
+
+}
